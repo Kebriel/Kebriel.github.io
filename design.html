@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Kebriel Java -- Design Philosophy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="title">Kebriel: Java Developer</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="skill_java.html">Java</a></li>
+            <li><a href="skill_spigot.html">Spigot/Bukkit</a></li>
+            <li><a href="skill_nms.html">NMS</a></li>
+            <li><a href="skill_thread.html">Threading</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">My Design Philosophy</h1>
+            <p>
+                My philosophy with regard to programming is a decently simple and straightforward, but highly
+                strict one. Consider this not so much an explanation of a ruleset, but rather, an approach/mindset
+                that I take towards development projects of any sort. As a developer, I have a handful of priorities
+                that I take.
+            </p>
+            <p>
+                Readability and ease-of-use. I try to write all of my code as if I'm writing a library for public
+                use -- and I also write code as if any developer who might be reading it has a worse understanding
+                of the systems at play than I do, just in case. I aim for my code to have intuitive class, method
+                and field names, be understandable with clear and concise comments, and be usable with straightforward methods
+                and design that make sense, work as expected, and keep highly complex and error-prone code under-the-hood.
+            </p>
+            <p>
+                Performance as a priority. Even if performance is not necessarily (yet) a concern, I prioritize
+                the optimization and slimming-down of code as I write and edit it. While I certainly leave
+                room for further optimizations, I prevent performance-inefficient code from being 'tolerated'
+                and building-up until performance is noticeably degraded -- and becomes a difficult problem to fix
+                with a hundred different possible culprits.
+            </p>
+            <p>
+                Plan for the most unlikely scenarios. In my experience, an essential piece to writing durable
+                and robust code is to rule out every possible unexpected or problematic outcome, regardless of likelihood. An anomaly
+                that has even the slimmest chances of happening should be planned for, lest the code be assumed
+                functional, and then distributed, only to eventually crash and burn due to an obscure and
+                preventable flaw.
+            </p>
+            <p>
+                Attention to detail. I take a highly detail-oriented approach to
+                writing code, one that aims to leave no question unasked with regard to performance implications,
+                edge cases that may break the code, and the possibility of
+                alternate routes should the current approach be unsatisfactory to any extent.
+            </p>
+            <p>
+                Quality over results. My goal when writing code is not just to accomplish the result
+                that's been set out -- that's a base prerequisite. I focus my attention instead on
+                accomplishing that goal in the *right way*, and the right way, in my opinion, is that
+                which is as resource-efficient as possible. I define resource-efficiency as being
+                first and foremost a consciousness of memory usage & allocation, which requires an understanding
+                of the JVM & Java Memory Management, secondly, of latency (in the context of a Minecraft server),
+                and thirdly, simply of complexity. I always try to strike a balance between
+                complexity and raw resource-efficiency, as complexity degrades the readability and maintainability
+                of code.
+            </p>
+            <p>
+                Tools are essential. In an environment like that of building a (likely complex) Spigot
+                minigame, taking the time to build out tools and utilities that make it easier and smoother to develop
+                actual content is something that I view as being essential. Often, working with certain aspects
+                of minigame development, NMS or SQL for example, is something that can be both highly complex
+                and also unintuitive, and as such, prone to human error. A tool that repackages those difficult operations
+                into something usable can prevent those errors, saving time that would be wasted fixing preventable bugs.
+                Tools can also make certain code easier to understand for developers who are new to it, and honestly,
+                they can even make the function of our own code easier to remember when coming back to it after some time.
+                Tools mean that ultimately more developer time can be spent actually building out games and features rather than constantly
+                trudging through  time-consuming use of unintuitive raw code.
+            </p>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Kebriel. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
